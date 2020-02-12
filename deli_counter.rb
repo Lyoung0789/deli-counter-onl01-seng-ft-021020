@@ -8,3 +8,8 @@ def line(array)
   end
 end
 
+def take_a_number(array, name)
+  array << name
+  position = array.length
+  puts "Welcome, #{name}. You are number #{position} in line."
+end
