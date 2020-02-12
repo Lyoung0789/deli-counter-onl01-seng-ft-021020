@@ -1,5 +1,5 @@
 #if array is empty give prompt 
-#else created a new array to hold the names of the people in line and their positions. Then turned the new_line into a string by using .join and outout prompt.
+#else created a new_line to hold the names of the people in line and their positions. Then turned the new_line into a string by using .join and outout prompt.
 def line(array)
   if array.length==0
     puts "The line is currently empty."
