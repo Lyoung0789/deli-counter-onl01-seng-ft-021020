@@ -7,3 +7,4 @@ def line(array)
     puts "The line is currently: #{new_line.join(" ")}"
   end
 end
+
